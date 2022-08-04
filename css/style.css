@@ -32,14 +32,13 @@ a, a:hover{
 }
 
 
-
-
 /*header code start*/
 .header{
 	width: 100%;
 	float: left;
 	padding: 20px 0px;
-	border: 1px solid #777; 
+	border: 3px solid #777; 
+	background-color:   #a6a6a6;
 }
 
 .logo{
@@ -65,13 +64,13 @@ a, a:hover{
 	display: block;
 	font-size: 14px;
 	text-transform: capitalize;
-	color: #777;
+	color: black;
 	font-weight: 600;
 	margin: 15px 0px 0px 25px;
-	transition: 1s;
+	transition: 2s;
 }
 .header .navbar li a:hover, .header .navbar li a:focus{
-	 color: #1B70ff;
+	 color: white;
 }
 
 .col-lg-3{
@@ -105,6 +104,7 @@ a, a:hover{
 	font-weight: 700;
 	color: #3F3D56;
 	margin: 0px 0px 15px;
+
 }
 
 .inner-online h1 span{
@@ -115,12 +115,14 @@ a, a:hover{
 	font-size: 16px;
 	line-height: 26px;
 	font-weight: 400;
-	color: #777;
-	margin: 0px 0px 15px;	
+	color: tomato;
+	margin: 0px 0px 45px 0px;	
 }
 
 .inner-online .banner-img{
-	width: 40%;
+	width: 60%;
+	border:5px solid powderblue; 
+	border-radius: 15px;
 }
 
 .col-lg-12{
@@ -208,6 +210,7 @@ a, a:hover{
 
 .cl1{
 	background: #ECDCDF;
+
 }
 
 .cl2{
@@ -221,6 +224,7 @@ a, a:hover{
 .col-lg-4{
 	width: 33.33%;
 	float: left;
+	
 }
 /*Feature section ends*/
 
